@@ -10,14 +10,15 @@
 .conteiner{
     background-color: blue;
     display: grid;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: relative;
+   
 }
 
 .rojo{
