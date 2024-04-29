@@ -1,0 +1,51 @@
+.body,html{
+    background-color: blue;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-color: blue;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+width: 200px;
+    height: 200px;
+}
+
+.rojo{
+    background-color: red;
+    opacity: 0.5;
+    
+}
+
+.verde{
+    background-color: green;
+    opacity: 0.5;
+}
+
+.azul{
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.naranja{
+    background-color: orange;
+    opacity: 0.5;
+}
+
+.play{
+    width: 200px;
+    height: 50px;
+}
+
+
+
+.encendido {
+    opacity: 1; /* Opacidad completa para el botón encendido */
+}
